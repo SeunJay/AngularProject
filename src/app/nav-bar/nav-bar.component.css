@@ -1,5 +1,5 @@
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   /* border: 2px solid #f1f1f1; */
   display: flex;
@@ -28,17 +28,18 @@ header {
 
 .flex-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   
   list-style: none;
   /* margin-top: -25px */
   margin-top: 0.4em;
+
   flex-wrap: wrap;
   /* border: 1px solid #000 */
 }
 
 li {
-  padding: 0 1em;
+  padding: 0 2em;
   font-size: 15px
 }
 
