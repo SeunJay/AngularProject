@@ -7,6 +7,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CleanNavComponent } from './clean-nav/clean-nav.component';
 import { BannerComponent } from './banner/banner.component';
 import { InfoComponent } from './info/info.component';
+import { HowComponent } from './how/how.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { InfoComponent } from './info/info.component';
     NavBarComponent,
     CleanNavComponent,
     BannerComponent,
-    InfoComponent
+    InfoComponent,
+    HowComponent
   ],
   imports: [
     BrowserModule,
