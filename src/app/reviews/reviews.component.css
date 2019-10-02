@@ -1,0 +1,48 @@
+.reviews {
+  background-color: #fff;
+}
+
+.container {
+  width: 60%;
+  margin: 10% auto;
+  /* border: 1px solid #000; */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  /* justify-items: center; */
+  align-items: center;
+  flex-flow: row;
+}
+
+.caption {
+  text-align: center;
+  color: #5c0426;
+}
+
+.photo {
+  width: 120px;
+  height: auto;
+  border-radius: 100%;
+  display: block;
+  /* vertical-align: middle; */
+  margin: 8% 37%;
+  border: 1px solid #000;
+}
+
+.comment {
+  margin-top: 5%;
+  font-weight: 100;
+  text-align: center;
+  flex: 1;
+}
+
+.customer-name {
+  text-align: center;
+  margin-top: 0;
+  /* border: 1px solid #000; */
+  font-weight: 100;
+  font-size: 1em
+  /* margin-bottom: 50% */
+}
