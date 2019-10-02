@@ -10,6 +10,7 @@ import { InfoComponent } from './info/info.component';
 import { HowComponent } from './how/how.component';
 import { DownloadComponent } from './download/download.component';
 import { ReviewsComponent } from './reviews/reviews.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ReviewsComponent } from './reviews/reviews.component';
     InfoComponent,
     HowComponent,
     DownloadComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
