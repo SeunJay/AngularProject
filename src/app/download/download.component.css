@@ -1,0 +1,59 @@
+.download-app {
+  background-color: #000;
+  /* height: 30% */
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.last-box {
+  margin-left: auto;
+  margin-bottom: 20%
+}
+
+/* .box {
+  border: 2px solid #fff;
+} */
+
+.box img {
+  height: 600px;
+  width: auto;
+}
+
+.second-box {
+  margin-bottom: 20%;
+  /* border: 2px solid #fff; */
+  margin-left: 3%;
+}
+
+.second-box h1 {
+  color: #fff;
+  text-align: justify;
+  font-size: 2.0em
+}
+
+p {
+  color: #fff;
+  font-size: 85%;
+  text-align: justify;
+}
+
+.google {
+  width: 200px;
+  height: auto;
+}
+
+.burger {
+  height: 400px;
+  width: auto;
+}
