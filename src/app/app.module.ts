@@ -9,6 +9,7 @@ import { BannerComponent } from './banner/banner.component';
 import { InfoComponent } from './info/info.component';
 import { HowComponent } from './how/how.component';
 import { DownloadComponent } from './download/download.component';
+import { ReviewsComponent } from './reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DownloadComponent } from './download/download.component';
     BannerComponent,
     InfoComponent,
     HowComponent,
-    DownloadComponent
+    DownloadComponent,
+    ReviewsComponent
   ],
   imports: [
     BrowserModule,
