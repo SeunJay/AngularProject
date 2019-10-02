@@ -10,7 +10,8 @@ import { InfoComponent } from './info/info.component';
 import { HowComponent } from './how/how.component';
 import { DownloadComponent } from './download/download.component';
 import { ReviewsComponent } from './reviews/reviews.component';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './footer1/footer1.component';
+import { Footer2Component } from './footer2/footer2.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     HowComponent,
     DownloadComponent,
     ReviewsComponent,
-    FooterComponent
+    FooterComponent,
+    Footer2Component
   ],
   imports: [
     BrowserModule,
