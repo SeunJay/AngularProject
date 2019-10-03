@@ -15,10 +15,9 @@
   align-items: center;
 }
 
-
 .last-box {
   margin-left: auto;
-  margin-bottom: 20%
+  margin-bottom: 20%;
 }
 
 /* .box {
@@ -39,7 +38,7 @@
 .second-box h1 {
   color: #fff;
   text-align: justify;
-  font-size: 2.0em
+  font-size: 2em;
 }
 
 p {
@@ -56,4 +55,101 @@ p {
 .burger {
   height: 400px;
   width: auto;
+}
+
+@media screen and (max-width: 1520px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  .box img {
+    height: 500px;
+    width: auto;
+  }
+
+  .burger {
+    height: 350px;
+    width: auto;
+  }
+
+  .google {
+    width: 150px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1225px) {
+  .container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  .box img {
+    height: 400px;
+    width: auto;
+  }
+
+  .burger {
+    height: 270px;
+    width: auto;
+  }
+
+  .second-box {
+    margin-bottom: 10%;
+  }
+
+  .second-box h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  .box img {
+    height: 350px;
+    width: auto;
+  }
+
+  .burger {
+    height: 290px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box img {
+    height: 300px;
+    width: auto;
+  }
+
+  .second-box {
+    margin-top: 3%
+  }
+
+  .second-box h1 {
+    text-align: center
+  }
+
+  .last-box{
+    margin: 0 auto
+  }
+
+  .burger {
+    height: 300px;
+    width: auto;
+  }
 }
