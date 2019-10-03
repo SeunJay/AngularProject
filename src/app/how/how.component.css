@@ -23,7 +23,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 3%
+  margin: 3%;
 }
 
 img {
@@ -42,5 +42,21 @@ img {
 .box p {
   color: #fff;
   font-size: 85%;
-  text-align: justify
+  text-align: justify;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+
+  .caption {
+    font-size: 12px
+  }
+
+  .box h4, .box p {
+    font-size: 10px;
+  }
+
+  
 }
