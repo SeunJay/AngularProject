@@ -9,7 +9,7 @@
 
 .flex-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   
   list-style: none;
   margin-left: 8%;
@@ -28,4 +28,31 @@ li {
 
 .cart {
   margin-left: auto
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 80%
+  }
+  .flex-container{
+    margin-left:0px
+  }
+  li {
+    padding: 0 1em;
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 528px) {
+  .container {
+    width: 80%
+  }
+
+  li {
+    font-size: 13px;
+    padding: 0 0.8em
+  }
 }
