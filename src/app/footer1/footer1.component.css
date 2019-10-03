@@ -1,12 +1,11 @@
 .footer {
   padding: 5em;
-    background-color: #121212;
+  background-color: #121212;
 }
 
-.footer-background {
-
-  border: 1px solid red
-}
+/* .footer-background {
+  border: 1px solid red;
+} */
 
 .container {
   width: 80%;
@@ -51,4 +50,45 @@ img {
 
 .base {
   background-color: #000;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer {
+    padding: 2em;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  img {
+  width: 150px;
+  height: auto;
+  padding-top: 10%;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 0.6em;
+  }
+
+  .caption {
+    font-size: 35px;
+  }
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list {
+    align-self: center;
+  }
+
+  img {
+    width: 150px;
+    height: auto;
+    padding-top: 10%;
+  }
 }
