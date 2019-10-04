@@ -137,7 +137,6 @@ input[type="submit"] {
   form {
     padding: 0 1em;
     width: 30%;
-    border: 1px solid #5c0426;
   }
 
   input[type="text"] {
