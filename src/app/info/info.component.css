@@ -48,17 +48,29 @@ img {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .flex-container {
+    width: 80%;
+    padding: 1em;
+  }
+
+  img {
+    width: 20%;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .flex-container {
     padding: 1em 3em;
     width: 100%;
-    margin: 0px
+    margin: 0px;
   }
 
   .box {
     margin-right: 10px;
     /* flex: 1 1 30%; */
-    flex-wrap: wrap
+    flex-wrap: wrap;
   }
 
   img {
@@ -68,5 +80,98 @@ img {
 
   .small {
     font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .flex-container {
+    padding: 1em 1em;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .box {
+    margin-right: 10px;
+    /* flex: 1 1 30%; */
+    flex-wrap: wrap;
+  }
+
+  img {
+    width: 25px;
+    height: auto;
+  }
+
+  .small {
+    font-size: 6px;
+  }
+}
+
+
+@media screen and (max-width: 411px) {
+  .flex-container {
+    padding: 1em 1em;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .box {
+    margin-right: 10px;
+    /* flex: 1 1 30%; */
+    flex-wrap: wrap;
+  }
+
+  img {
+    width: 25px;
+    height: auto;
+  }
+
+  .small {
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .flex-container {
+    padding: 1em 1em;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .box {
+    margin-right: 10px;
+    /* flex: 1 1 30%; */
+    flex-wrap: wrap;
+  }
+
+  img {
+    width: 25px;
+    height: auto;
+  }
+
+  .small {
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .flex-container {
+    padding: 1em 1em;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .box {
+    margin-right: 10px;
+    /* flex: 1 1 30%; */
+    flex-wrap: wrap;
+  }
+
+  img {
+    width: 20px;
+    height: auto;
+  }
+
+  .small {
+    font-size: 5px;
   }
 }

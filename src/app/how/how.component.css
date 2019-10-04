@@ -60,3 +60,79 @@ img {
 
   
 }
+
+
+@media screen and (max-width: 414px) {
+  .container {
+    width: 90%;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    width: 80px;
+    height: auto
+  }
+  
+}
+
+
+@media screen and (max-width: 411px) {
+  .container {
+    width: 90%;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    width: 70px;
+    height: auto
+  }
+  
+}
+
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 90%;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    width: 60px;
+    height: auto
+  }
+  
+}
+
+
+@media screen and (max-width: 320px) {
+  .container {
+    width: 90%;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    width: 60px;
+    height: auto
+  }
+  
+}

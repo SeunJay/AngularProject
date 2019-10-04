@@ -124,6 +124,32 @@ p {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .box img {
+    height: 250px;
+    width: auto;
+  }
+
+  .burger {
+    height: 200px;
+    width: auto;
+  }
+
+  .google {
+    width: 100px;
+    height: auto;
+  }
+
+  .second-box h1 {
+    text-align: center;
+    font-size: 18px
+  }
+
+  .second-box p {
+    font-size: 13px
+  }
+}
+
 @media screen and (max-width: 600px) {
   .flex-container {
     flex-direction: column;
@@ -137,19 +163,163 @@ p {
   }
 
   .second-box {
-    margin-top: 3%
+    margin-top: 3%;
   }
 
   .second-box h1 {
-    text-align: center
+    text-align: center;
   }
 
-  .last-box{
-    margin: 0 auto
+  .last-box {
+    margin: 0 auto;
   }
 
   .burger {
     height: 300px;
     width: auto;
+  }
+}
+
+
+@media screen and (max-width: 414px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box img {
+    height: 250px;
+    width: auto;
+  }
+
+  .second-box {
+    margin-top: 3%;
+  }
+
+  .second-box h1 {
+    text-align: center;
+  }
+
+  .last-box {
+    margin: 0 auto;
+  }
+
+  .burger {
+    height: 200px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box img {
+    height: 250px;
+    width: auto;
+  }
+
+  .second-box {
+    margin-top: 3%;
+  }
+
+  .second-box h1 {
+    text-align: center;
+  }
+
+  .last-box {
+    margin: 0 auto;
+  }
+
+  .burger {
+    height: 200px;
+    width: auto;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box img {
+    height: 130px;
+    width: auto;
+  }
+
+  .second-box {
+    margin-top: 3%;
+  }
+
+  .second-box h1 {
+    text-align: center;
+    font-size: 18px
+  }
+
+  .second-box p {
+    font-size: 10px
+  }
+
+  .last-box {
+    margin: 0 auto;
+  }
+
+  .burger {
+    height: 120px;
+    width: auto;
+  }
+
+  .google {
+    width: 80px;
+    height: auto;
+  }
+}
+
+
+
+@media screen and (max-width: 320px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box img {
+    height: 150px;
+    width: auto;
+  }
+
+  .second-box {
+    margin-top: 3%;
+  }
+
+  .second-box h1 {
+    text-align: center;
+    font-size: 18px
+  }
+
+  .second-box p {
+    font-size: 10px
+  }
+
+  .last-box {
+    margin: 0 auto;
+  }
+
+  .burger {
+    height: 120px;
+    width: auto;
+  }
+
+  .google {
+    width: 80px;
+    height: auto;
   }
 }

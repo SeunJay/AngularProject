@@ -1,17 +1,12 @@
-/* .container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0.65em 0
-} */
-
 .banner {
   background-image: url(../../assets/Mask-Group-4.png);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   height: 50vh;
   /* background-attachment: fixed; */
-  padding: 50px
+  padding: 50px;
+  vertical-align: center;
 }
 
 .container {
@@ -24,6 +19,7 @@
 .caption {
   font-weight: 900;
   font-size: 2.5em;
+  margin-bottom: 5%;
 }
 
 span {
@@ -36,13 +32,13 @@ span {
   left: 50%;
   transform: translate(-50%, 50%);
   width: 100%;
-  margin-top: 3%
+  margin-top: 3%;
   /* border: 1px solid #000 */
 }
 
 form {
   width: 50%;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 input {
@@ -57,7 +53,8 @@ input[type="text"] {
   padding: 1em;
   border: none;
   outline: none;
-  color: #a6a6a6
+  color: #a6a6a6;
+  box-shadow: 2px 2px 1px 1px #ccc;
 }
 
 .city {
@@ -65,9 +62,8 @@ input[type="text"] {
 }
 
 input.area {
-  border-left: 1px solid #a6a6a6
+  border-left: 1px solid #a6a6a6;
 }
-
 
 input[type="submit"] {
   width: 150px;
@@ -75,7 +71,311 @@ input[type="submit"] {
   padding: 1em;
   border: none;
   outline: none;
-  border-radius: 0 10% 10% 0;
+  border-radius: 0 25px 25px 0;
   background: #5c0426;
-  color: #fff
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+@media screen and (max-width: 1440px) {
+  .caption {
+    font-size: 2em;
+  }
+
+  .box {
+    margin-top: 0%;
+  }
+
+  form {
+    padding-right: 5em;
+    padding-left: 3em;
+  }
+
+  input[type="text"] {
+    width: 250px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .caption {
+    font-size: 1.8em;
+  }
+
+  .box {
+    margin-top: 0%;
+  }
+
+  form {
+    padding-right: 5em;
+    padding-left: 3em;
+  }
+
+  input[type="text"] {
+    width: 200px;
+    height: 55px;
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {
+    padding: 10px;
+  }
+
+  .caption {
+    font-weight: 600;
+    font-size: 1.8em;
+    margin-bottom: 7%;
+  }
+
+  input {
+    /* margin-bottom: 40% */
+  }
+
+  form {
+    padding: 0 1em;
+    width: 30%;
+    border: 1px solid #5c0426;
+  }
+
+  input[type="text"] {
+    width: 100px;
+    height: 23px;
+    padding: 1em;
+    margin-bottom: -55%;
+    margin-left: -1%;
+    display: inline-block;
+  }
+
+  input[type="submit"] {
+    width: 90px;
+    height: 23px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    padding: 10px;
+  }
+
+  .caption {
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-bottom: 7%;
+  }
+
+  form {
+    padding: 0 3em;
+    width: 40%;
+  }
+
+  input[type="text"] {
+    width: 100px;
+    height: 20px;
+    padding: 1em;
+    margin-top: -35%;
+    margin-left: -1%;
+    display: inline-block;
+  }
+
+  input[type="submit"] {
+    width: 90px;
+    height: 23px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  /* .banner {
+    
+  } */
+  .caption {
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-bottom: 35%;
+  }
+
+  form {
+    /* border: 1px solid red; */
+    padding: 0 5em;
+  }
+
+  input[type="text"] {
+    width: 100px;
+    height: 30px;
+    padding: 1em;
+    margin-top: 15%;
+    margin-left: -10%;
+    display: inline-block;
+  }
+
+  input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .banner {
+    padding: 10px;
+  }
+
+  .caption {
+    font-weight: 500;
+    font-size: 1.3em;
+    margin-bottom: 30%;
+  }
+
+  form {
+    padding: 0 3em;
+    width: 90%;
+  }
+
+  input[type="text"] {
+    width: 100px;
+    height: 20px;
+    padding: 1em;
+    margin-top: 15%;
+    margin-left: -1%;
+    display: inline-block;
+  }
+
+  input[type="submit"] {
+    width: 90px;
+    height: 23px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .banner {
+    padding: 10px;
+  }
+
+  .caption {
+    font-weight: 500;
+    font-size: 1.3em;
+    margin-bottom: 30%;
+  }
+
+  form {
+    padding: 0 3em;
+    width: 90%;
+  }
+
+  input[type="text"] {
+    width: 100px;
+    height: 20px;
+    padding: 1em;
+    margin-top: 15%;
+    margin-left: -1%;
+    display: inline-block;
+  }
+
+  input[type="submit"] {
+    width: 90px;
+    height: 23px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .banner {
+    padding: 10px;
+  }
+
+  .caption {
+    font-weight: 500;
+    font-size: 1.3em;
+    margin-bottom: 30%;
+  }
+
+  form {
+    padding: 0 3em;
+    width: 90%;
+  }
+
+  input[type="text"] {
+    width: 100px;
+    height: 20px;
+    padding: 1em;
+    margin-top: 22%;
+    margin-left: -1%;
+    display: inline-block;
+  }
+
+  input[type="submit"] {
+    width: 90px;
+    height: 23px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .banner {
+    padding: 10px;
+  }
+
+  .caption {
+    font-weight: 500;
+    font-size: 1em;
+    margin-bottom: 55%;
+  }
+
+  form {
+    padding: 0 3em;
+    width: 90%;
+  }
+
+  input[type="text"] {
+    width: 100px;
+    height: 20px;
+    padding: 1em;
+    margin-top: 15%;
+    margin-left: -5%;
+    display: inline-block;
+  }
+
+  input[type="submit"] {
+    width: 90px;
+    height: 23px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .banner {
+    padding: 10px;
+  }
+
+  .caption {
+    font-weight: 500;
+    font-size: 1em;
+    margin-bottom: 35%;
+  }
+
+  form {
+    padding: 0 3em;
+    width: 90%;
+  }
+
+  input[type="text"] {
+    width: 80px;
+    height: 15px;
+    padding: 1em;
+    margin-top: 20%;
+    margin-left: -5%;
+    display: inline-block;
+  }
+
+  input[type="submit"] {
+    width: 90px;
+    height: 22px;
+    padding: 0;
+    margin-top: 4px;
+  }
 }
